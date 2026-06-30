@@ -1,0 +1,22 @@
+{
+  "name": "loyalty-apple",
+  "version": "0.1.0",
+  "description": "Generador de loyalty card (storeCard) para Apple Wallet",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/cli.ts",
+    "verify": "tsx src/verify.ts output/loyalty.pkpass",
+    "preview": "tsx src/preview.ts",
+    "certs:dev": "bash scripts/gen-dev-certs.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "passkit-generator": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

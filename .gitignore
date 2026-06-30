@@ -1,0 +1,9 @@
+node_modules/
+dist/
+output/
+.env
+certs/*.pem
+certs/*.key
+certs/*.crt
+certs/*.p12
+*.pkpass
