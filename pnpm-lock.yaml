@@ -221,8 +221,8 @@ packages:
   joi@17.4.2:
     resolution: {integrity: sha512-Lm56PP+n0+Z2A2rfRvsfWVDXGEWjXxatPopkQ8qQ5mxCEhwHG+Ettgg5o98FFaxilOxozoa14cFhrE/hOzh/Nw==}
 
-  node-forge@1.4.0:
-    resolution: {integrity: sha512-LarFH0+6VfriEhqMMcLX2F7SwSXeWwnEAJEsYm5QKWchiVYVvJyV9v7UDvUv+w5HO23ZpQTXDv/GxdDdMyOuoQ==}
+  node-forge@1.4.3:
+    resolution: {integrity: sha512-P6wzfh6t70avmV8FrVEAd/36sOPJQ+hkaJVX1Laap9J/77m7M0eyozDvc8SwnDf4P7MP94gwbAAo0rg3YVXT+g==}
     engines: {node: '>= 6.13.0'}
 
   passkit-generator@3.5.7:
@@ -387,13 +387,13 @@ snapshots:
       '@sideway/formula': 3.0.1
       '@sideway/pinpoint': 2.0.0
 
-  node-forge@1.4.0: {}
+  node-forge@1.4.3: {}
 
   passkit-generator@3.5.7:
     dependencies:
       do-not-zip: 1.0.0
       joi: 17.4.2
-      node-forge: 1.4.0
+      node-forge: 1.4.3
       tslib: 2.8.1
 
   tslib@2.8.1: {}
